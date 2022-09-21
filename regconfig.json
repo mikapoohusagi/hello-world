@@ -8,14 +8,15 @@
     }
   },
   "plugins": {
-    "reg-simple-keygen-plugin": {"expectedKey": ".reg/expected","actualKey": "directory_contains_actual_images"},
+    "reg-keygen-git-hash-plugin": true,
+    "reg-simple-keygen-plugin": true,
     "reg-notify-github-plugin": {
       "prComment": true,
       "prCommentBehavior": "default",
       "clientId": "MzE3MzI0NzUz1M9IzcnJ1y3PL8pJ0TeyNDExtTC31M/NzE4syM/PKC1OTM8EAA=="
     },
     "reg-publish-s3-plugin": {
-      "bucketName": "reg-publish-bucket-da5b361a-35d2-4e1b-89d4-528343d37f36"
+      "bucketName": "reg-publish-bucket-8ac54834-8e95-4282-9dcd-88b6d20a1ea4"
     }
   }
 }
